@@ -3,13 +3,10 @@ package com.iu.s4;
 public class SquareMain {
 
 	public static void main(String[] args) {
-		Square square = new Square();
+		int num =10;
 		
-		square.garo=2;
-		square.sero=4;
-		
-		square.info();
-		
+		Square.sero=10;
+		Square.info();
 
 	}
 
