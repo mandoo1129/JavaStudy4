@@ -1,9 +1,18 @@
 package com.iu.s9.himart;
 
+import com.iu.s8.rpg.*;
+
 public class HimartMain {
 
 	public static void main(String[] args) {
+		
+		Magition magition;
+		Magition magition2;
+		
+		com.iu.s9.himart.Magition magition3;
+		
 		//Tv , Computer, Phone 정보 입력
+		
 		Computer computer = new Computer();
 		computer.company="Samsung";
 		computer.brand="갤럭시북";
